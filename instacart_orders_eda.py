@@ -11,11 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# --- Plan de solución ---
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
+# --- Carga de datos ---
 orders = pd.read_csv('datasets/instacart_orders.csv', sep=';')
 products = pd.read_csv('datasets/products.csv', sep=';')
 aisles = pd.read_csv('datasets/aisles.csv', sep=';')
